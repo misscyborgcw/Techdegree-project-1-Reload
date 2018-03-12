@@ -240,5 +240,14 @@ ul.contact {
    margin: 2px;
  
 }
-
+ .about-image {
+  margin: 60px;
+  width: 200px;
+  height: 288px;
+  border-radius: 60%;
+  border: 5px solid #005b96;
+  transition: all .5s;
+}
+.about-image:hover {
+  transform: scale(1.2) rotate(180deg);
 }
